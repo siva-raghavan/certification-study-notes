@@ -1,0 +1,24 @@
+Azure
+    Portal
+    CLI
+    Powershell
+    SDK to interact to azure using code
+    Azure Mobile App
+
+Azure Account
+    - Billing account
+    - One or more Subscriptions
+
+Azure Virtual Machine Service
+    Add
+    Provide Subscription
+    resource group
+    Region
+    Availability Zone/Set
+    CPU type
+    Inbound Port opening (80/443/22 for ssh)
+    Storage disk
+    Networking
+
+Delete
+  Delete resource group
