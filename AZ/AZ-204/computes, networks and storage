@@ -1,0 +1,45 @@
+Compute, Storage and Network
+
+Compute
+    Virtual Machines
+    App Service - web and mobile app (PaaS)
+    Container Instances
+    Azure Kubernetes Service
+    Azure Functions - similar to app service but just runs a specific function and shuts down later
+
+Storage
+    Blob - unstructured data without hierarchy (images, videos, large files)
+        hot
+        cool
+        archive
+    file Storage - hierarchy
+        can be mounted on servers
+    data lake
+        for data analytics
+    SQL Database
+    DB for opensource
+        SQL, 
+    Synapse Analytics
+    Cosmos DB - noSQL db
+    Redis Cache - noSQL cache
+
+Network
+    VNet 
+        - connecting a group of virtual machines under a virtual network
+        - each VM has a IP address
+        - default, from VM to public internet is allowed
+        - to enable inbound traffic from internet to VM, public IP should be assigned to the VM
+        - VNet can also be divided into subnets
+    VNet Peering
+        - VM can communicate with other VMs within the same VNET
+        - to communicate between VMs in different VNets, VNet peering can be done
+    Azure VPN
+        - to communicate between VM and an on-premise datacenter using public internet
+        - data is encrypted
+    Azure ExpressRoute
+        - to communicate between azure VM and an on-premise datacenter using private dedicated connection
+        - expensive but reliable and fast
+
+AI
+
+DevOPS
